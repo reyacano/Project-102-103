@@ -42,7 +42,7 @@ class FileEventHandler(FileSystemEventHandler):
         print(f'File deleted: {event.src_path}')
 
 def main():
-    from_dir = "<Set path for tracking file system events>"
+    from_dir = "</Users/reyacano/Downloads>"
 
     event_handler = FileEventHandler()
 
